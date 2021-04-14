@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=1280">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <style>
+            #preloader {
+                display:none;
+            }
+
+            body {
+                max-width: 1280px;
+            }
+
+            #body {
+                /* background: url('bg-strip.png');
+                background-repeat: repeat-x repeat-y;
+                width: 100%; */
+                background: #004331;
+                background: url(bg-strip.png);
+                padding: 30px;
+
+                -moz-transform: scale(0.5, 0.5); /* Moz-browsers */
+                zoom: 0.5; /* Other non-webkit browsers */
+                zoom: 50%; /* Webkit browsers */
+            }
+
+            .symbol {
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                font-size: 140px;
+                background: url('white-block.png');
+                width: 163px;
+                height: 178px;
+                line-height: 188px;
+                text-align: center;
+                margin: 5px;
+            }
+
+            .symbol.highlight {
+                background: url(blue-block.png);
+            }
+
+            #strips {
+                background: url('base.png');
+                width: 1204px;
+                height: 1079px;
+                background-size: 100% 100%;
+                position: relative;
+                margin: auto;
+
+                /* width: 602px;
+                height: 540px; */
+            }
+
+            .strip {
+                position: absolute;
+                width: 202px;
+                height: 920px;
+                border-radius: 22px;
+                margin: 16px;
+                overflow: hidden;
+                top: 67px;
+            }
+
+            .strip-inner {
+                position: relative;
+            }
+
+            #strip1 { left: 43px; }
+            #strip2 { left: 271px; }
+            #strip3 { left: 500px; }
+            #strip4 { left: 729px; }
+            #strip5 { left: 958px; }
+
+            
+            h1 {
+                font-size: 100px;
+                font-weight: bold;
+                margin: 0;
+            }
+            h2 {
+                font-size: 60px;
+                font-weight: normal;
+                margin: 0;
+            }
+
+            #code-prompt {
+                text-align: center;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                padding-top: 50px;
+                padding-bottom: 100px;
+            }
+
+
+
+  .strip:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    background-image: linear-gradient(to bottom,#000 0%,rgba(0,0,0,0) 50%, #000 100%);
+    z-index:1000;
+  }
+</style>
+</head>
+    <body>
+        <div id="body">
+
+        <div id="code-prompt">
+            <h1>Enter the secret code</h1>
+
+            <h2>You can give the wheels a spin.</h2>
+
+            <h3>
+            Hint: The secret code is <span id="code">A12B7</span>
+            </h3>
+
+            <p style="font-size: 3em">(works best in chrome)</p>
+        </div>
+
+        <div id="strips">
+            <div id="strip1" class="strip"></div>
+            <div id="strip2" class="strip"></div>
+            <div id="strip3" class="strip"></div>
+            <div id="strip4" class="strip"></div>
+            <div id="strip5" class="strip"></div>
+        </div>
+
+        </div>
+
+
+        <div id="preloader">
+            <img src="blue-block.png" width="1" height="1" />
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="hammer.min.js"></script>
+        <script src="secret.js"> </script>
+        <script src="lock.js"> </script>
+    </body>
+</html>

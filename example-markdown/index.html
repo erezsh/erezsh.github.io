@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="/prism.css">
+		<link rel="stylesheet" href="/hyde.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="modulepreload" href="/./_app/pages/$layout.svelte-3d2aafb9.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-0aa014da.js">
+		<link rel="modulepreload" href="/./_app/pages/example-markdown.md-786a9fb7.js">
+		<link rel="stylesheet" href="/./_app/assets/pages/$layout.svelte-4cbcd9e7.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/example-markdown.md-96d6b431.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-56501193.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/$layout.svelte-3d2aafb9.js"),
+						import("/./_app/pages/example-markdown.md-786a9fb7.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/example-markdown",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<p><strong>Note that despite this file having an md extension, it can support all Svelte language features (like scripting). Do not import untrusted or user-created markdown files.</strong></p>
+<p><em>This markdown sample was taken from <a href="https://gist.github.com/rt2zz/e0a1d6ab2682d2c47746950b84c0b6ee" rel="nofollow">here</a>.</em></p>
+<p>Test 2</p>
+<h1 id="an-h1-header-not-really" class="svelte-at6vol"><a href="#an-h1-header-not-really">An h1 header (not really)</a></h1>
+<p>Paragraphs are separated by a blank line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look like:</p>
+<ul><li>this one</li>
+<li>that one</li>
+<li>the other one</li></ul>
+<p>Note that — not considering the asterisk — the actual text
+content starts at 4-columns in.</p>
+<blockquote><p>Block quotes are
+written like so.</p>
+<p>They can span multiple paragraphs,
+if you like.</p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+   <span class="token keyword">print</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span></code></pre></blockquote>
+<p>Use 4 dashes for an em-dash. Use 2 dashes for ranges (ex., “it’s all
+in chapters 12–14”). Three dots … will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+<p>What’s ---- doing, but – works?</p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+   <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span></code></pre>
+<hr>
+<h2 id="an-h2-header"><a href="#an-h2-header">An h2 header</a></h2>
+<p>Here’s a numbered list:</p>
+<ol><li>first item</li>
+<li>second item</li>
+<li>third item</li></ol>
+<p>By the way, you can write code in delimited blocks:</p>
+<pre class="language-null"><code class="language-null">define foobar() &#123;
+    print &quot;Welcome to flavor country!&quot;;
+&#125;</code></pre>
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for syntax highlighting when you include the CSS for a Prism theme:</p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> time
+<span class="token comment"># Quick, count to ten!</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># (but not *too* quick)</span>
+    time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">0.5</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span> i</code></pre>
+<h3 id="an-h3-header"><a href="#an-h3-header">An h3 header</a></h3>
+<p>Now, a nested list:</p>
+<ol><li>First, get these ingredients:<ul><li>carrots</li>
+<li>celery</li>
+<li>lentils</li></ul></li>
+<li>Boil some water.</li>
+<li>Dump everything in the pot and follow
+this algorithm:<pre class="language-null"><code class="language-null">find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)</code></pre>Do not bump wooden spoon or it will fall.</li></ol>
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+<p>Here’s a link to <a href="http://foo.bar" rel="nofollow">a website</a> and one to this site’s <a href="/">home page</a>. Because the <code>rehype-slug</code> and <code>rehype-autolink-headings</code> plugins have been set up for you, <a href="#an-h2-header">this will link to a section heading in the current
+doc</a>.</p>
+<p>A horizontal rule follows.</p>
+<hr>
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+<p>This mention — <a href="https://github.com/svelte-add"><strong>@svelte-add</strong></a> — will turn into a link to the <code>svelte-add</code> GitHub page because the <code>remark-github</code> plugin is setup.</p>
+<p>And <a href="https://github.com/lark-parser"><strong>@lark-parser</strong></a> ? And <a href="https://github.com/lark-parser/lark"><strong>@lark-parser/lark</strong></a> ?</p>
+
+
+
+	
+</div>
+	</body>
+</html>
