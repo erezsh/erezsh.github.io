@@ -12,8 +12,17 @@ title: Professional
 		color: #333;
 		text-decoration: none;
 	}
+	h1>a:hover, h2>a:hover, h3>a:hover, h4>a:hover {
+		text-decoration: underline;
+	}
+
 	h1 {
 		margin-top: 50px;
+	}
+	h1, h2, h3, h4, h5, h6 {
+	    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	    font-weight: 700;
+	    line-height: 1.5em;
 	}
 
 	.project {
@@ -28,7 +37,7 @@ title: Professional
 	}
 
 	li {
-		list-style-type: circle;
+		list-style: url(/star3.png);
 	}
 </style>
 
@@ -86,7 +95,7 @@ I've been a software engineer professionally since 2008.
 - [Blog](http://blog.erezsh.com) (rarely updated)
 - Art
 	- [parrot](/parrot) - drawn entirely with CSS borders
-	- [lock](/lock/lock.html) - demonstration of tactile UI
 	- [candy](/candybg.html) - random-generated "sci-fi" background
+	- [lock](/lock/lock.html) - demonstration of tactile UI
 
 </ProfessionalPage>
