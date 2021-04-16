@@ -5,6 +5,12 @@
 <main>
 	Under construction.
 
-	See my <a href="professional">professional page</a>.
+	<h1>
+		<a href="professional">professional</a>
+	</h1>
+
+	<h1>
+		<a href="personal">personal</a>
+	</h1>
 </main>
 
