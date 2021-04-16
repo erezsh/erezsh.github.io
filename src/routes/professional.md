@@ -1,5 +1,5 @@
 ---
-title: Professional
+domain: Professional
 ---
 
 <script lang="ts">

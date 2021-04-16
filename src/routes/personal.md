@@ -1,17 +1,12 @@
 ---
-title: Personal
+domain: Personal
 ---
 
+<script lang="ts">
+	import PersonalPage from '$lib/PersonalPage.svx';
+</script>
 
-# Personal
-
-## Picture
-
-## Connect
-
-- Email: erez27@gmail.com
-- Facebook: facebook.com/erezsh
-- ICQ: 96617785
+<PersonalPage>
 
 ## About
 
@@ -21,29 +16,36 @@ Ask me anything, as long as you truly want to know the answer.
 
 Currently living the nomadic lifestyle.
 
-Activities I'm interested in:
+### Prefered Activities
+
 - Sincere conversations
-- Travel
+- [Travel](/travel)
 - Chess & other boardgames
+	- chess.com
+	- lichess.com
 - Hiking & Biking
 - Making music
 - Soccer, Volleyball, Tennis, Squash (fuck ping-pong)
-- Videogames (currently: TFT, Rocket League)
+- Videogames (currently: TFT, Rocket League, Prismata)
 - Anything unusual
 
-Topics I'm interested in:
-- Books
+### Topics I'm interested in:
+
+- [Books](/books)
 - Philosophy
+- Software & Math
 
+### Art I created:
+- [The Promise](/the_promise) - a short poem
+- [Between the Lines](/Between_the_Lines.pdf) - a short story
+- [parrot](/parrot) - drawn entirely with CSS borders
+- [candy](/candybg.html) - random-generated "sci-fi" background
 
-Art I created:
-- between the lines
-- the promise
+<!--
 - drawings?
 - webart
 	- parrot
-	- lock
 	- candy
+-->
 
-Other:
-- collection of desktops?
+</PersonalPage>

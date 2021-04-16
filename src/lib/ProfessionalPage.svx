@@ -2,6 +2,11 @@
 	export let content_id = "content"
 </script>
 
+<svelte:head>
+		<link rel="stylesheet" href="/hyde.css">
+</svelte:head>
+
+
 <style>
 	.selfie {
 		width: 14rem;

@@ -1,0 +1,62 @@
+<script>
+	export let content_id = "content"
+</script>
+
+<svelte:head>
+		<link rel="stylesheet" href="/m10c.css">
+</svelte:head>
+
+<style>
+
+</style>
+
+<!-- <div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+			<a href="#"><h1>Erez Shinan</h1></a>
+			<p class="lead">Software Research & Architecture</p>
+			<ul class="sidebar-nav">
+				<li class="sidebar-nav-item">
+					Email: erezshin@gmail.com
+				</li>
+
+				[Twitter](https://twitter.com/erezsh)
+				[LinkedIn](https://www.linkedin.com/in/erezsh/)
+			</ul>
+
+			<br/>
+			<br/>
+
+			<img src="/me1.jpg" class="selfie" width=300>
+		</div>
+
+
+	</div>
+</div>
+ -->
+<header class="app-header">
+	<a href="/personal"><img class="app-header-avatar" src="/me2.jpg" alt="Me" /></a>
+	<h1></h1>
+
+	<nav class="app-header-menu">
+		<a class="app-header-menu-item">Oaxaca, Mexico</a>
+	</nav>
+
+	<p>Erez Shinan. Alive since the 80s, thinks it's the 90s, and as serious as bug 2000</p>
+
+	<div class="app-header-social">
+		<a href="#" target="_blank" rel="noreferrer noopener">
+		</a>
+	</div>
+
+	<p>
+		<h1>Connect</h1>
+
+		Email: erezshin@gmail.com
+
+		[Facebook](https://facebook.com/erezsh)
+
+</header>
+<main class="app-container">
+	<slot/>
+</main>
