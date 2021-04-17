@@ -6,13 +6,20 @@ domain: Personal
 	import PersonalPage from '$lib/PersonalPage.svx';
 </script>
 
+<style>
+	pre {
+		font-size: 20px;
+		font-family: 'Times New Roman', serif;
+	}
+</style>
+
 <PersonalPage>
 
 [&amp;lt; back](/personal)
 
 # The Promise
 
-```markdown
+<pre>
 We live by the promise
 That is the promise of the promise
 The shine of it makes us follow
@@ -26,6 +33,6 @@ And all we see is ourselves
 Making promises
 And then scrambling
 To keep them
-```
+</pre>
 
 </PersonalPage>
