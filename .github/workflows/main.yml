@@ -24,4 +24,3 @@ jobs:
         token: ${{ secrets.PAT }}
         branch: gh-pages # The branch the action should deploy to.
         folder: build # The folder the action should deploy.
-        enable_jekyll: false
