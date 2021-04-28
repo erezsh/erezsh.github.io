@@ -78,6 +78,8 @@ domain: Professional
 
 I'm a polymathic software engineer, practicing professionally since 2008.
 
+I have found myself often in the role of team leader or project leader.
+
 I'm particularly interested programming languages, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
 
 I usually work for start-ups, and in my spare time contribute to open-source.
