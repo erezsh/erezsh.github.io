@@ -8,9 +8,9 @@
 		"lint": "eslint --ignore-path .gitignore ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "next",
-		"@sveltejs/adapter-static": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-node": "1.0.0-next.12",
+		"@sveltejs/adapter-static": "1.0.0-next.4",
+		"@sveltejs/kit": "1.0.0-next.73",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
 		"eslint": "^7.22.0",
@@ -31,7 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.4",
+		"@sveltejs/adapter-static": "1.0.0-next.4",
 		"cash-dom": "^8.1.0",
 		"jquery": "^3.6.0",
 		"node": "^15.12.0",
