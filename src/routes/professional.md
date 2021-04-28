@@ -72,17 +72,22 @@ domain: Professional
 	Brings multiple-dispatch and runtime type-safety to Python
 </div>
 
-<a class="project" href="https://github.com/erezsh/Runtype">More...</a>
+<a class="project" href="https://github.com/erezsh/">More...</a>
 
 # About
 
-I've been a software engineer professionally since 2008.
+I'm a polymathic software engineer, practicing professionally since 2008.
 
-## Skills
+I'm particularly interested programming languages, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
+
+I usually work for start-ups, and in my spare time contribute to open-source.
+
+## Expertise
 	- Software Design & Architecture
 	- Static Analysis
 	- Machine Learning
 	- Parsing & DSLs
+	- Security
 
 - Programming Languages: Python, C, Julia, SQL, Javascript, HTML & CSS, and more...
 
