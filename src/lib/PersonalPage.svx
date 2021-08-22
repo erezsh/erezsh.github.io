@@ -39,7 +39,7 @@
 	<h1></h1>
 
 	<nav class="app-header-menu">
-		<a class="app-header-menu-item">Oaxaca, Mexico</a>
+		<a class="app-header-menu-item">Lisbon, Portugal</a>
 	</nav>
 
 	<p>Erez Shinan. Alive since the 80s, thinks it's the 90s, and as serious as bug 2000</p>
