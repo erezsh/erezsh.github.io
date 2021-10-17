@@ -28,6 +28,7 @@ Countries I've been to:
 	- Germany
 	- Greece
 	- Netherlands
+	- Portugal
 	- Romania
 	- Spain
 
