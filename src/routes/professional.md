@@ -17,8 +17,14 @@ domain: Professional
 	}
 
 	h1 {
-		margin-top: 50px;
+		margin: 60px 0;
+		color: black;
+		text-shadow: -1px -1px 8px rgb(150 150 150 / 56%);
 	}
+	h1:before {
+		content: "> ";
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 	    font-family: "PT Sans", Helvetica, Arial, sans-serif;
 	    font-weight: 700;
@@ -26,53 +32,75 @@ domain: Professional
 	}
 
 	.project {
-		margin-bottom: 90px;
-		margin-left: 20px;
+		margin-top: 30px;
+		margin-left: 10px;
+		display: flex;
+		border-top: 1px solid #DDD;
+		align-items: center;
+		gap: 40px;
 	}
 	.project > a {
 		font-size: 1.5em;
 		color: #44a;
 		font-weight: bold;
 		text-decoration: none;
+		min-width: 150px;
+		text-align: right;
 	}
 
 	li {
 		list-style: url(/star3.png);
+	}
+
+	#runtype {
+		font-family: "Courier New", Courier, monospace;
 	}
 </style>
 
 <ProfessionalPage>
 
 
-# Public Projects
+# Public Works
 
 <div class="project">
 	<a href="https://github.com/erezsh/Preql">
 		<img src="/preql.png" width="150"/>
 	</a>
+	<div>
 
 	Preql is a relational programming language that compiles to SQL.
 
 	It ventures to change the way programmers interface with databases.
+
+	</div>
 </div>
 
 <div class="project">
 	<a href="https://github.com/lark-parser/Lark">
 		<img src="/lark-logo.png" width="150" style="margin-bottom: -20px"/>
 	</a>
+	<div>
 
 	Lark is a general-purpose parsing toolkit for Python.
 
 	It is, arguably, the most popular parser in the Python ecosystem.
+
+	</div>
 </div>
 
 <div class="project">
-	<a href="https://github.com/erezsh/Runtype">Runtype</a>
+	<a href="https://github.com/erezsh/Runtype" id="runtype">Runtype</a>
+	<div>
 
 	Brings multiple-dispatch and runtime type-safety to Python
+
+	</div>
 </div>
 
-<a class="project" href="https://github.com/erezsh/">More...</a>
+<br/>
+<br/>
+<br/>
+More projects and details at <a href="https://github.com/erezsh/">my Github page</a>
 
 # About
 
