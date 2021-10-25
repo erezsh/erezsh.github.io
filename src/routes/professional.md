@@ -52,9 +52,6 @@ domain: Professional
 		list-style: url(/star3.png);
 	}
 
-	#runtype {
-		font-family: "Courier New", Courier, monospace;
-	}
 </style>
 
 <ProfessionalPage>
@@ -89,7 +86,9 @@ domain: Professional
 </div>
 
 <div class="project">
-	<a href="https://github.com/erezsh/Runtype" id="runtype">Runtype</a>
+	<a href="https://github.com/erezsh/Runtype">
+		<img src="/runtype-logo.png" width="150">
+	</a>
 	<div>
 
 	Brings multiple-dispatch and runtime type-safety to Python
