@@ -77,9 +77,9 @@ I'm a polymathic software engineer, practicing professionally since 2008.
 I have found myself often in the role of team leader or project leader.
 
 I'm particularly interested in:
-- Programming languages, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
-- Static analysis, because it's like math but for code.
-- Neural Networks, because their potential is fascinating.
+- **Programming languages**, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
+- **Static analysis**, because it's like math but for code.
+- **Neural Networks**, because their potential is fascinating.
 
 I usually work for start-ups, and in my spare time contribute to open-source.
 
@@ -97,18 +97,7 @@ I usually work for start-ups, and in my spare time contribute to open-source.
 
 # Public Works
 
-<div class="project">
-	<a href="https://github.com/erezsh/Preql">
-		<img src="/preql.png" width="150"/>
-	</a>
-	<div>
-
-	Preql is a relational programming language that compiles to SQL.
-
-	It ventures to change the way programmers interface with databases.
-
-	</div>
-</div>
+The following is a list of projects I created and actively maintain:
 
 <div class="project">
 	<a href="https://github.com/lark-parser/Lark">
@@ -120,6 +109,23 @@ I usually work for start-ups, and in my spare time contribute to open-source.
 
 	It is, arguably, the most popular parser in the Python ecosystem.
 
+	<iframe src="https://ghbtns.com/github-btn.html?user=lark-parser&repo=lark&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+	</div>
+</div>
+
+<div class="project">
+	<a href="https://github.com/erezsh/Preql">
+		<img src="/preql.png" width="150"/>
+	</a>
+	<div>
+
+	Preql is a relational programming language that compiles to SQL.
+
+	It ventures to change the way programmers interface with databases.
+
+
+	<iframe src="https://ghbtns.com/github-btn.html?user=erezsh&repo=preql&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+
 	</div>
 </div>
 
@@ -130,6 +136,8 @@ I usually work for start-ups, and in my spare time contribute to open-source.
 	<div>
 
 	Brings multiple-dispatch and runtime type-safety to Python
+
+	<iframe src="https://ghbtns.com/github-btn.html?user=erezsh&repo=runtype&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 
 	</div>
 </div>
