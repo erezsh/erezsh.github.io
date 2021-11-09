@@ -41,7 +41,7 @@
 			<br/>
 			<br/>
 
-			<img src="/me1.jpg" class="selfie" width=300>
+			<img src="/me2.jpg" class="selfie" width=300>
 		</div>
 
 

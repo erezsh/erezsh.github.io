@@ -35,11 +35,11 @@
 </div>
  -->
 <header class="app-header">
-	<a href="/personal"><img class="app-header-avatar" src="/me2.jpg" alt="Me" /></a>
+	<a href="/personal"><img class="app-header-avatar" src="/me1.jpg" alt="Me" /></a>
 	<h1></h1>
 
 	<nav class="app-header-menu">
-		<a class="app-header-menu-item">Lisbon, Portugal</a>
+		<a class="app-header-menu-item">Tel Aviv, Israel</a>
 	</nav>
 
 	<p>Erez Shinan. Alive since the 80s, thinks it's the 90s, and as serious as bug 2000</p>

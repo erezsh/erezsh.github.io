@@ -25,6 +25,10 @@ domain: Professional
 		content: "> ";
 	}
 
+	h2 {
+		margin: 40px 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 	    font-family: "PT Sans", Helvetica, Arial, sans-serif;
 	    font-weight: 700;
@@ -52,9 +56,43 @@ domain: Professional
 		list-style: url(/star3.png);
 	}
 
+	nav a {
+		text-decoration: none;
+
+	}
 </style>
 
 <ProfessionalPage>
+
+<nav>
+
+[about](#about) | [public works](#public-works) | [more information](#more-information)
+
+</nav>
+
+# About
+
+I'm a polymathic software engineer, practicing professionally since 2008.
+
+I have found myself often in the role of team leader or project leader.
+
+I'm particularly interested in:
+- Programming languages, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
+- Static analysis, because it's like math but for code.
+- Neural Networks, because their potential is fascinating.
+
+I usually work for start-ups, and in my spare time contribute to open-source.
+
+## Expertise
+	- Software Design & Architecture
+	- Static Analysis
+	- Machine Learning
+	- Parsing & DSLs
+	- Security
+
+- Programming Languages: Python, C, Julia, SQL, Javascript, HTML & CSS, and more...
+
+- Languages: English, Hebrew
 
 
 # Public Works
@@ -101,29 +139,8 @@ domain: Professional
 <br/>
 More projects and details at <a href="https://github.com/erezsh/">my Github page</a>
 
-# About
 
-I'm a polymathic software engineer, practicing professionally since 2008.
-
-I have found myself often in the role of team leader or project leader.
-
-I'm particularly interested programming languages, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
-
-I usually work for start-ups, and in my spare time contribute to open-source.
-
-## Expertise
-	- Software Design & Architecture
-	- Static Analysis
-	- Machine Learning
-	- Parsing & DSLs
-	- Security
-
-- Programming Languages: Python, C, Julia, SQL, Javascript, HTML & CSS, and more...
-
-- Languages: English, Hebrew
-
-
-## More information
+# More information
 
 - [Resume](/Resume_2018.pdf)
 - [Blog](http://blog.erezsh.com) (rarely updated)
