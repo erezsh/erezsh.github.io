@@ -49,7 +49,7 @@
 			<br/>
 			<br/>
 
-			<img src="/me2.jpg" class="selfie" width=300>
+			<img src="/me2_300.jpg" class="selfie" width=300>
 		</div>
 
 
