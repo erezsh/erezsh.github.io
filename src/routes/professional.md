@@ -130,6 +130,26 @@ The following is a list of projects I created and actively maintain:
 </div>
 
 <div class="project">
+	<a href="https://github.com/datafold/data-diff">
+		<div style="width:150px">
+			data-diff
+		</div>
+	</a>
+	<div>
+
+	Data-diff is a command-line tool and Python library to efficiently diff rows across two different databases.
+
+	It has a clever diffing algorithm, and supports a wide range of databases.
+
+	Sponsored by Datafold.
+
+
+	<iframe src="https://ghbtns.com/github-btn.html?user=datafold&repo=data-diff&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+
+	</div>
+</div>
+
+<div class="project">
 	<a href="https://github.com/erezsh/Runtype">
 		<img src="/runtype-logo.png" width="150">
 	</a>
