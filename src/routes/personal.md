@@ -16,16 +16,18 @@ Ask me anything, as long as you truly want to know the answer.
 
 Currently living the nomadic lifestyle.
 
+Yes, I'm aware of how geeky and awkward this page is.
+
 ### Preferred Activities
 
 - Sincere conversations
 - [Travel](/travel)
 - Chess & other boardgames
 	- Invite me for a game: [lichess.com](https://lichess.org/@/aliencpu), [chess.com](https://www.chess.com/member/erezsh)
-- Hiking & Biking
-- Making music
-- Soccer, Volleyball, Tennis, Squash (fuck ping-pong)
-- Videogames (currently: TFT, Rocket League, Prismata)
+- Nature: Hiking & Biking
+- Sports: Soccer, Volleyball, Tennis, Squash (fuck ping-pong 😝)
+- Making music (I play guitar)
+- Videogames (currently: Rocket League, Starcraft Remastered, Prismata, TFT)
 - Anything unusual
 
 ### Topics I'm interested in
@@ -33,13 +35,11 @@ Currently living the nomadic lifestyle.
 - [Books](/books)
 - Philosophy
 - Software & Math
-- Science
+- Science, Nature
 - History
+- Travel, Culture, Languages
 - Psychology, Sociology & Anthropology
-- Travel & Culture
 - Music
-- Nature
-- Languages
 
 Talk to me about any of those. Feel free to skip the small-talk.
 

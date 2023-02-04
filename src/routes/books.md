@@ -77,4 +77,6 @@ Huxley describes what I consider as "the best of all possible dystopias", and ta
 
 The true, complete, and most entertaining history of the illustrious Knight Of The Sorrowful Face, and his upright squire, detailing their quest for eternal glory and governable insulas.
 
+While most famous for fighting windmills in pop-culture, I feel this book is actually an ingenious hyperbole for the madness of man, when faced with the inherent meaninglessness of existence. Even though it was written in the 1601s, at times it reads almost like a contemporary postmodern novel, with a lot of self-awareness and subtle sarcasm.
+
 </PersonalPage>
