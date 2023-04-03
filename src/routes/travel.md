@@ -18,6 +18,7 @@ Countries and cities I've been to:
 		- Buenos Aires
 		- Mendoza
 		- Bariloche
+		- La Plata
 	- Mexico
 		- Playa Del Carmen
 		- Tulum

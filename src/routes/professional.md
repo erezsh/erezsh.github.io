@@ -7,6 +7,8 @@ domain: Professional
 </script>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&display=swap');
+
 
 	h1>a, h2> a, h3 > a, h4 > a {
 		color: #333;
@@ -30,7 +32,7 @@ domain: Professional
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-	    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+		font-family: 'Roboto Serif', serif;
 	    font-weight: 700;
 	    line-height: 1.5em;
 	}
@@ -60,6 +62,7 @@ domain: Professional
 		text-decoration: none;
 
 	}
+
 </style>
 
 <ProfessionalPage>
@@ -76,19 +79,17 @@ I'm a polymathic software engineer, practicing professionally since 2008.
 
 I have found myself often in the role of team leader or project leader.
 
-I'm particularly interested in:
-- **Programming languages**, because I believe that language is intertwined with our way of thinking about the world, and new languages provide us with new ways to think about our problems.
-- **Static analysis**, because it's like math but for code.
-- **Neural Networks**, because their potential is fascinating.
+I'm particularly interested in programming languages, static analysis, and machine Learning.
 
-I usually work for start-ups, and in my spare time contribute to open-source.
+I maintain several popular open-source projects.
 
 ## Expertise
+- Topics:
 	- Software Design & Architecture
 	- Static Analysis
 	- Machine Learning
 	- Parsing & DSLs
-	- Security
+	- Security / Cyber
 
 - Programming Languages: Python, C, Julia, SQL, Javascript, HTML & CSS, and more...
 
