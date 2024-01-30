@@ -25,7 +25,7 @@ Yes, I'm aware of how geeky and awkward this page is.
 - Chess & other boardgames
 	- Invite me for a game: [lichess.com](https://lichess.org/@/aliencpu), [chess.com](https://www.chess.com/member/erezsh)
 - Nature: Hiking & Biking
-- Sports: Soccer, Volleyball, Tennis, Squash (fuck ping-pong 😝)
+- Sports: Soccer, Volleyball, Tennis, Squash, Spikeball (fuck ping-pong 😝)
 - Making music (I play guitar)
 - Videogames (currently: Rocket League, Starcraft Remastered, Prismata, TFT)
 - Anything unusual

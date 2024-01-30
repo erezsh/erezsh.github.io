@@ -34,10 +34,12 @@ Countries and cities I've been to:
 		- Santa Barbara
 	- Uruguay
 		- Montevideo
+		- Valizas
 	- Paraguay
 		- Asuncion
 		- San Bernardino 
 - Asia/Africa
+	- Israel
 	- China
 		- Beijing
 		- Xian
@@ -45,7 +47,17 @@ Countries and cities I've been to:
 		- Dali
 		- Lijiang
 		- Sanya
-	- Israel
+	- Vietnam
+		- Hanoi
+		- Sapa
+		- Ha Long
+		- Ninh Binh
+		- Da Nang
+		- Hoi An
+	- Thailand
+		- Bangkok
+		- Chiang Mai
+		- Phuket
 - Europe
 	- Bulgaria
 		- Sofia
